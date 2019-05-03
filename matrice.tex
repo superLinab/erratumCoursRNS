@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+%Ces commandes vont permettre d'afficher de belles définition et de belles propositions.
+
+% \newtheorem{defgalien}{Définition}
+% \theoremstyle{definition}
+
+% Les commandes suivantes permettent de définir des raccourcis :
+% \newcommand{\E}{\mathrm{E}}
+% \newcommand{\R}{\mathbb{R}}
+% \renewcommand{\P}{\mathbb{P}}
+
+\title{Erratum du document sur les matrices}
+\author{Fabien Delhomme}
+
+\begin{document}
+
+\maketitle
+
+\section{Page 26}
+
+Le tableau qui présente la suite de Fibonacci est malheureusement faux. Voici
+les vraies premières valeurs de la suite de Fibonacci.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        $n$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+        \hline
+        $\mathcal{F}_n$ & 0 & 1 & 1 & 2 & 3 & 5 & 8 & 13  \\
+        \hline
+    \end{tabular}
+    \caption{Liste des premières valeurs de la suite de Fibonacci}
+\end{table}
+
+\end{document}
